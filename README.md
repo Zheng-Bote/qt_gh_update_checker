@@ -6,9 +6,9 @@ A lightweight, header-only C++ library and CLI tool for checking GitHub reposito
 [![C++23](https://img.shields.io/badge/C%2B%2B-23-blue.svg)]()
 [![CMake](https://img.shields.io/badge/CMake-3.23+-blue.svg)]()
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Zheng-Bote/gh-update-checker?logo=GitHub)](https://github.com/Zheng-Bote/gh-update-checker/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Zheng-Bote/qt_gh_update_checker?logo=GitHub)](https://github.com/Zheng-Bote/qt_gh_update_checker/releases)
 
-[Report Issue](https://github.com/Zheng-Bote/gh-update-checker/issues) · [Request Feature](https://github.com/Zheng-Bote/gh-update-checker/pulls)
+[Report Issue](https://github.com/Zheng-Bote/qt_gh_update_checker/issues) · [Request Feature](https://github.com/Zheng-Bote/qt_gh_update_checker/pulls)
 
 ---
 
