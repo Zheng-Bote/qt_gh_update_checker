@@ -1,7 +1,13 @@
 cmake_minimum_required(VERSION 3.23)
 
+# cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+# cmake --build build --config Release -j$(nproc)
+# sudo cmake --install build
+
 project(qt_gh_update_checker
-        VERSION 0.1.0
+        VERSION 1.0.0
+        DESCRIPTION "header-only C++23 Qt6 library and CLI tool for checking GitHub repository updates."
+        HOMEPAGE_URL "https://github.com/Zheng-Bote/qt_gh_update_checker"
         LANGUAGES CXX)
 
 cmake_minimum_required(VERSION 3.20)
