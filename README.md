@@ -14,6 +14,45 @@ A lightweight, header-only C++ library and CLI tool for checking GitHub reposito
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+  - [Features](#features)
+  - [Requirements](#requirements)
+    - [Installation of Dependencies](#installation-of-dependencies)
+      - [Ubuntu/Debian:](#ubuntudebian)
+      - [macOS (Homebrew):](#macos-homebrew)
+      - [Windows (vcpkg):](#windows-vcpkg)
+  - [Build](#build)
+    - [Clone and Setup](#clone-and-setup)
+    - [Build with CMake](#build-with-cmake)
+    - [Build Options](#build-options)
+    - [Verify Build](#verify-build)
+  - [Installation](#installation)
+    - [Using as a Dependency](#using-as-a-dependency)
+      - [Option 1: find_package() (after installation)](#option-1-find_package-after-installation)
+      - [Option 2: FetchContent (download at configure time)](#option-2-fetchcontent-download-at-configure-time)
+  - [Usage](#usage)
+    - [CLI Tool](#cli-tool)
+      - [Examples:](#examples)
+    - [Library Usage](#library-usage)
+  - [Testing](#testing)
+    - [Run Tests](#run-tests)
+    - [Test Details](#test-details)
+  - [Project Structure](#project-structure)
+  - [API Reference](#api-reference)
+    - [`qtgh::SemVer` Structure](#qtghsemver-structure)
+    - [`qtgh::check_github_update()`](#qtghcheck_github_update)
+  - [Troubleshooting](#troubleshooting)
+    - [CMake not finding Qt6](#cmake-not-finding-qt6)
+    - [Network errors when checking updates](#network-errors-when-checking-updates)
+    - [C++ standard errors](#c-standard-errors)
+  - [Version](#version)
+  - [Support](#support)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
+  - [Code Contributors](#code-contributors)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---

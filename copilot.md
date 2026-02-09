@@ -1,3 +1,30 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Toolchain & Build](#toolchain--build)
+- [🔧 C++23 Feature Usage](#-c23-feature-usage)
+  - [Formatted Output (<print>)](#formatted-output-print)
+  - [std::expected](#stdexpected)
+  - [Modules (import std)](#modules-import-std)
+  - [Deducing this](#deducing-this)
+    - [std::mdspan](#stdmdspan)
+    - [Ranges](#ranges)
+    - [Strings](#strings)
+- [🏛️ Architecture (MVC + Utils)](#-architecture-mvc--utils)
+  - [Model](#model)
+  - [View](#view)
+  - [Controller](#controller)
+  - [Utils](#utils)
+  - [main.cpp](#maincpp)
+- [🧹 Coding Style](#-coding-style)
+  - [Naming](#naming)
+  - [Modern C++ Idioms](#modern-c-idioms)
+- [📁 File Structure & Modules](#-file-structure--modules)
+- [📚 Documentation (Doxygen)](#-documentation-doxygen)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Toolchain & Build
 
 - Standard: C++23
